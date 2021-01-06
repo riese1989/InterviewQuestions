@@ -9,4 +9,5 @@
 *.iml
 /target
 /web
-
+/out
+/.idea
