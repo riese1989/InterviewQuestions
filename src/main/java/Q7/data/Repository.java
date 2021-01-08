@@ -1,18 +1,12 @@
+package Q7.data;
+
+import Q7.interfaces.Category;
+import Q7.interfaces.Product;
+
 import java.util.Collection;
 import java.util.List;
 
-//Какая коллекция лучше? TreeSet с сортировкой Comparator https://metanit.com/java/tutorial/5.6.php
-public class Q7 {
-    public interface Category {
-        Long getId();
-        String getName();
-    }
-
-    public interface Product {
-        Long getId();
-        String getName();
-        List<Category> getCategories();
-    }
+public class Repository {
 
     /**
      * Метод вызывается 1 раз
@@ -29,6 +23,7 @@ public class Q7 {
      */
     public boolean isProductInCategory(Long productId, Long categoryId) {
         // TODO: реализовать
+        return false;
     }
 
     /**
@@ -38,6 +33,6 @@ public class Q7 {
      */
     public Collection<Product> getProductsByCategory(Long categoryId) {
         // TODO: реализовать
+        return null;
     }
-
 }
