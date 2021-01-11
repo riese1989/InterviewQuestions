@@ -8,6 +8,5 @@ public class Main {
         }
         simplyList.reverse();
         System.out.println();
-
     }
 }
